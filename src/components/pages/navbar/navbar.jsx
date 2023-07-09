@@ -18,13 +18,13 @@ const Navbar = () => {
     <Link to='/' style={{textDecoration: 'none'}}>
         <div>Home</div>
         </Link>
-        <Link to='facilities' style={{textDecoration: 'none'}}>
+        <Link to='/facilities' style={{textDecoration: 'none'}}>
         <div>Facilities</div>
         </Link>
-        <Link to='rooms' style={{textDecoration: 'none'}}>
+        <Link to='/rooms' style={{textDecoration: 'none'}}>
         <div>Rooms</div>
         </Link>
-        <Link to='ContactUs' style={{textDecoration: 'none'}}>
+        <Link to='/ContactUs' style={{textDecoration: 'none'}}>
         <div>Contact-us</div>
         </Link>        
     </Div>
