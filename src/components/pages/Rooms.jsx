@@ -4,6 +4,7 @@ import { RoomStyle } from '../styles/roomsStyle'
 import Footer from './footer/footer'
 import { MiniWrap } from '../styles/homestyles'
 import Button from './Button'
+import Testimonials from './Description/Description'
 
 
 const Rooms = () => {
@@ -18,6 +19,7 @@ const Rooms = () => {
             redefined at the most affordable rates.</p>
         </MiniWrap>
         <Button/>
+        <Testimonials/>
        <Footer/>
     </RoomStyle>
   )

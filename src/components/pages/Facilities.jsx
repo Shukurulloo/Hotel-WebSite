@@ -4,6 +4,7 @@ import { FacilityStyle } from '../styles/facilities'
 import Footer from './footer/footer'
 import { MiniWrap } from '../styles/homestyles'
 import Button from './Button'
+import Testimonials from './Description/Description'
 
 
 const Facilities = () => {
@@ -18,6 +19,7 @@ const Facilities = () => {
             redefined at the most affordable rates.</p>
         </MiniWrap>
         <Button/>
+        <Testimonials/>
       <Footer/>
     </FacilityStyle >
   )
