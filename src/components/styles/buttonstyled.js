@@ -8,7 +8,7 @@ display:flex;
 align-items:center;
 justify-content:${props=>props.email ? "" : "center"};
 width: ${({wd}) => wd || '268px'};
-height: 78px;
+height: ${({ht}) => ht || "78px;"};
 border: 3px solid #E0B973;
 background-color: ${({bg}) => bg || '#E0B973'};
 border-radius: ${props=>props.book ? "20px" : "5px"};
@@ -17,10 +17,11 @@ font-family: Montserrat;
 font-size: 25px;
 font-weight: 700;
 line-height: normal;
-margin: 50px 700px;
 
 &:hover{
     cursor: pointer;
+    background-color: #E2B973;
+
 }
 `
 

@@ -2,9 +2,11 @@ import React from 'react'
 import { FooterContainer, FooterWrap } from './footerstyle'
 import {FaFacebook, FaTwitter, FaInstagram} from 'react-icons/fa';
 
+
 const Footer = () => {
   return (
     <FooterContainer>
+      {/* <Corner></Corner> */}
      <FooterWrap left>
      <h1>LUXURY</h1>
      <h5>HOTELS</h5>
@@ -23,9 +25,10 @@ const Footer = () => {
         <a href="https://instagram.com"><FaInstagram style={{marginRight: "10px"}}/>Instagram</a>
       </FooterWrap >
       <FooterWrap  right>
-        <div style={{marginBottom:'20px'}}>Subscribe to our newsletter</div>
+        <div style={{marginBottom:'45px'}}>Subscribe to our newsletter</div>
         <div style={{display: 'flex', textDecoration:'none'}}>
-     
+     <input type="email" placeholder='Email Address' style={{color:"#FFFF"}} />
+     <button>OK</button>
         </div>        
       </FooterWrap >
     </FooterContainer>

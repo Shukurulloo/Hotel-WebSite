@@ -15,6 +15,7 @@ const ContactUs = () => {
             please forward it to our support desk and we will get back to you as soon as possible.
           </p>
         </WrapForm>
+        
     <Footer/>
     </ContactStyle>
   )
