@@ -20,7 +20,7 @@ line-height: normal;
 
 &:hover{
     cursor: pointer;
-    background-color: #E2B973;
+    background-color: #e09a19;
 
 }
 `

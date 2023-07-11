@@ -8,14 +8,17 @@ align-items: center;
 h1{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.25px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top:-30px;
 }
-`
-export const ScrollIcon = styled.div`
-width: 61px;
-height: 61px;
+img{
+    margin-bottom:80px;
+    width: 40px;
+height: 40px;
+border-radius: 30px;
+}
 `

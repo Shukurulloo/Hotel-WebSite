@@ -28,10 +28,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 div{
-    width: 684px;
-    height: 75px;
-    background-color: white;
-    justify-content: center;
+width: 684px;
+height: 75px;
+background-color: white;
+justify-content: center;
 align-items: center;
 display: flex;
 margin-top: -30px;

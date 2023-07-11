@@ -10,6 +10,7 @@ import bar from '../assets/PoolsidBars.png'
 import swiming from '../assets/swimmingpool.png'
 import restourant from '../assets/restaurant.png'
 import laundry from '../assets/laundry.png'
+import IconScroll from './scroll'
 
 const Facilities = () => {
   return (
@@ -23,6 +24,7 @@ const Facilities = () => {
             redefined at the most affordable rates.</p>
         </MiniWrap>
         <Button/>
+        <IconScroll/>
         <FirstMiddle>
           <Title>
           FACILITIES
