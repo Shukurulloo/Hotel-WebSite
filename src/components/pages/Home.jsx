@@ -29,7 +29,7 @@ const Home = () => {
           <Middle>
         <div style={{border:"1px solid black",height:"320px", marginRight:"20px"}}></div>
             <MiniMiddle>
-              <Title>Luxury redefined</Title>
+              <Title wd='408px' >Luxury redefined</Title>
               <Text style={{marginTop:"20px"}}>Our rooms are designed to transport
                   you into an environment made for leisure.
                   Take your mind off the day-to-day of home 
