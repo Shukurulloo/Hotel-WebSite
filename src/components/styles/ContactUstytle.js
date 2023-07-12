@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ContactStyle = styled.div`
 background-color:#14274A;
 height: 465px;
+width: 100%;
 
 h3{
     color: #FFF;
@@ -41,6 +42,7 @@ p{
     font-weight: 400;
     line-height: normal;
     margin-left:80px;
+    
 }
 `
 export const ContainerUs = styled.div`
@@ -98,6 +100,7 @@ flex-shrink: 0;
 border: 2px solid rgba(20, 39, 74, 0.50);
 background: #FFF;
 margin-bottom: 45px;
+font-size: 25px;
 }
 h6{
 color: #14274A;

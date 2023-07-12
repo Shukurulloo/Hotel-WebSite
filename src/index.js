@@ -6,14 +6,16 @@ import Facilities from './components/pages/Facilities';
 import Rooms from './components/pages/Rooms';
 import ContactUs from './components/pages/ContactUs';
 import { BrowserRouter , Route, Routes} from 'react-router-dom';
-import { Container } from './components/styles/container';
+import { Container } from './components/styles/Container';
+
+
 
 
 
 
 function App () {
   return(
-    <Container>
+    <Container >
 <BrowserRouter>
 <MainApp/>
 </BrowserRouter>

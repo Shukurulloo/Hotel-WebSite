@@ -10,6 +10,10 @@ background-position:center;
 background-size:cover;
 width:auto;
 height:950px;
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
 
 `
 export const FirstMiddle = styled.div`

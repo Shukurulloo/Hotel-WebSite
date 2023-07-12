@@ -7,6 +7,10 @@ align-items: center;
 background-color: #14274A;
 height: 310px;
 position: relative;
+width: 100%;
+display: flex;
+      align-items: center;
+      justify-content: center;
 
 &:before {
       border-bottom: 105px solid  #14274A;
@@ -14,10 +18,13 @@ position: relative;
       border-right: 130px solid transparent;
       content: "";
       height: 0px;
-      left:710px;
+      /* left:710px; */
       position: absolute;
       top: -75px;
       width: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
 `

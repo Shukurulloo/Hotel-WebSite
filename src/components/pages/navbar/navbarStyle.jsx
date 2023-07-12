@@ -6,6 +6,7 @@ export const Nav = styled.div`
     display: flex;
     /* border: 1px solid black; */
     padding: 0 150px;
+    width: 100%;
 
     /* @media (max-width: 768px) {
     flex-direction: column;
@@ -28,6 +29,10 @@ div{
     line-height: normal;
 
     &:hover {
+    
+        cursor: pointer;
+        color: #e74A;
+    
     text-decoration: ${props=>props.right ? "underline" : ""};
     }
 } 
@@ -52,6 +57,7 @@ h1{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
+    
 }
 
 p{

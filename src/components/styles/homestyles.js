@@ -6,8 +6,9 @@ background-image:url(${homeBackGround});
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
-width:auto;
+width: 100%;
 height:950px;
+
 `
 
 
@@ -90,6 +91,9 @@ font-weight: 800;
 letter-spacing: 2%;
 color: #14274A;
 width: ${({wd}) => wd || '563px'};
+display: flex;
+justify-content: center;
+align-items: center;
 `
 export const Text = styled.div`
 font-family: 'Montserrat', sans-serif;
@@ -97,6 +101,8 @@ font-size: 25px;
 font-weight: 400;
 line-height: 40px;
 width: ${({wd}) => wd || '550px'};
+text-align:${({txtalg}) => txtalg || 'none'};
+
 
 `
 export const MiddleImg = styled.div`
